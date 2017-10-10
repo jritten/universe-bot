@@ -18,3 +18,6 @@ module.exports = (robot) ->
 
   robot.respond /lunch/gim, (res) ->
     res.send " > I want a peanut butter and jelly sandwich for lunch today."
+
+  robot.respond /premiere/gim, (res) ->
+    res.send " > Star Wars: The Last Jedi premieres in December."
