@@ -7,7 +7,7 @@ module.exports = (robot) ->
   robot.respond /universe/gim, (res) ->
     res.send "> GitHub is great, and Training Day is greater!!"
 
-  robot.respond /USERNAME/gim, (res) ->
+  robot.respond /jritten/gim, (res) ->
     res.send " > That person is awesome"
 
   robot.respond /fruit/gim, (res) ->
@@ -21,3 +21,6 @@ module.exports = (robot) ->
 
   robot.respond /premiere/gim, (res) ->
     res.send " > Star Wars: The Last Jedi premieres in December."
+    
+  robot.respond /party/gim, (res) ->
+    res.send " > I can't wait for the GitHub Universe After Party!"
